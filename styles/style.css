@@ -304,7 +304,7 @@
 }
 
 .footer__color-text {
-  color: #fff
+  color: #fff;
 }
 
 .footer__columns {
@@ -318,7 +318,6 @@
 
 .footer__column_content_copyright {
   display: flex;
-  flex-direction: column;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
