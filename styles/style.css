@@ -59,7 +59,7 @@
 .header__subtitle {
   width: 388px;
   bottom: 30px;
-  margin: 0; 
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   position: absolute;
@@ -85,7 +85,8 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  top: 64px;position: absolute;
+  top: 64px;
+  position: absolute;
   right: 0;
   z-index: 1;
   background-color: #2f80ed;
@@ -122,8 +123,6 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  margin: 0;
-  font-weight: normal;
 }
 
 .two-columns__main-text {
@@ -173,7 +172,6 @@
   line-height: 34px;
   font-size: 24px;
   width: 60%;
-  margin: 0;
   text-align: center;
   font-weight: normal;
 }
@@ -278,7 +276,7 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
-  color: #2f80ed;;
+  color: #2f80ed;
   z-index: 2;
 }
 
