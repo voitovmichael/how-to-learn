@@ -23,21 +23,10 @@
   /* выше установили ограничения для секции */
 }
 
-/* .header-absolute-element-left {
-  position: absolute;
-  z-index: 3;
-  left: 64px;
-} */
-
-.header-absolute-element-right {
-  position: absolute;
-  right: 0;
-}
 
 .logo {
   width: 183px;
-  height: 32px
-  /* background-image: url('../images/logo_place_header.svg'); */
+  height: 32px;
 }
 
 .logo_place_header {
@@ -92,16 +81,6 @@
   background-color: #2f80ed;
 }
 
-/* .content-block-margin-top {
-  box-sizing: border-box;
-  margin-top: 100px;
-} */
-
-/* .content-title-margin {
-  margin: 0;
-  font-weight: normal;
-} */
-
 .description {
   display: flex;
   margin-top: 100px;
@@ -113,7 +92,6 @@
   margin: auto;
   width: 80%;
   min-height: 0;
-  /* flex-direction: row; */
 }
 
 .two-columns__brief {
@@ -231,17 +209,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 790px;
   min-height: 790px;
   position: relative;
   background-color: #f2f2f2;
   margin-top: 100px;
   padding-top: 100px;
 }
-
-/* .feynman_padding_top {
-  padding-top: 100px;
-} */
 
 .feynman__title {
   margin: 0;
@@ -268,7 +241,6 @@
 }
 
 .feynman__link {
-  /* text-decoration: none; */
   line-height: 51px;
   font-size: 36px;
   margin: 0;
@@ -280,10 +252,6 @@
   z-index: 2;
 }
 
-/* .feynman__link_decoration_none {
-  text-decoration: none;
-  color: #2f80ed;
-} */
 
 .kaufman {
   display: flex;
@@ -314,10 +282,6 @@
   background-color: #1f1f1f;
   box-sizing: border-box;
 }
-
-/* .footer__color-text {
-  color: #fff;
-} */
 
 .footer__columns {
   display: flex;
@@ -378,10 +342,3 @@
   height: 16px;
   width: 16px;
 }
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
