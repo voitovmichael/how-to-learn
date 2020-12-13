@@ -1,0 +1,8 @@
+.page__link {
+  transition: opacity .3s ease-in;
+}
+.page__link:hover {
+  /* transition: opacity 1s ease-in; */
+  opacity: 0.5;
+  /* color:blueviolet; */
+}

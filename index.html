@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
       <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Логотип Яндекс практикума">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a class="header__link" href="#">Узнать &#8594;</a>
+        <a class="header__link page__link" href="#">Узнать &#8594;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Часть картины Опять двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
       <!-- </div> -->
     </header>
     <main class="content">
@@ -40,6 +41,51 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-attention.png" alt="Книга: 101 способ, который изменит путь мышления">
+            <h4 class="cards__title">Два вида внимания</h4>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-recall.png" alt="Статуэтка, думающего мальчика">
+            <h4 class="cards__title">Recall</h4>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Одновременное изучение навыков">
+            <h4 class="cards__title">Интерливинг</h4>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-question.png" alt="Комната с моножеством окон">
+            <h4 class="cards__title">Вопросы</h4>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Рука жержащая стопку книг">
+            <h4 class="cards__title">Иллюзия компетентности</h4>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
       </section>
 
       <section class="digits">
@@ -87,7 +133,7 @@
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
           <img class="feynman__feynmans-photo" src="./images/feynman.png" alt="Фото Ричарда Фейнмана">
-          <a class="feynman__link" href="#">Подробнее &#8594;</a>
+          <a class="feynman__link page__link" href="#">Подробнее &#8594;</a>
         
       </section>
 
@@ -149,13 +195,13 @@
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">Главная</a>
+              <a class="footer__column-link page__link" href="#">Главная</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Концепция</a>
+              <a class="footer__column-link page__link" href="#">Концепция</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">Наставники</a>
+              <a class="footer__column-link page__link" href="#">Наставники</a>
             </li>
           </ul>
         </nav>
@@ -163,17 +209,17 @@
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link page__link" href="#">
                 <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook
               </a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link page__link" href="#">
                 <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="VK.com">ВКонтакте
               </a>
             </li>
             <li>
-              <a class="footer__column-link" href="#">
+              <a class="footer__column-link page__link" href="#">
                 <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram
               </a>
             </li>
